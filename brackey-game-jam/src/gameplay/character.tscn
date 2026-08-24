@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://c5wa4l1swq1l5"]
+
+[ext_resource type="Script" uid="uid://0unbc8u00ull" path="res://src/gameplay/character.gd" id="1_7hgu3"]
+
+[node name="Character" type="CharacterBody2D" unique_id=1251101634]
+script = ExtResource("1_7hgu3")
+
+[node name="characterCollision" type="CollisionShape2D" parent="." unique_id=652587838]
+
+[node name="characterSprite" type="Sprite2D" parent="." unique_id=1416367919]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="characterSprite" unique_id=1681122628]
+
+[node name="speechBubble" type="Sprite2D" parent="." unique_id=268250237]
+
+[node name="speechText" type="RichTextLabel" parent="." unique_id=577785678]
+offset_right = 40.0
+offset_bottom = 40.0
